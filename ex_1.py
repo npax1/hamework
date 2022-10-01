@@ -12,3 +12,4 @@ if a ==2:
     while start>end:
         start-=1
         print(f"{start}")
+if a == 3:
