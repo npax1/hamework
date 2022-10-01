@@ -1,15 +1,11 @@
 num1=int(input("веди число і"))
 num2=int(input("веди число"))
-number=7
-if num1 / 7==1:
-    if num1 < 7:
-        number=(int(num1+(7%num1)))
-    elif num2>7:
-        number1= (int(num1-(num1%7))+7)
+if  num1 < 7 :
+    num1+=(7%num1)
+elif num1>7:
+    num1=(num1-(num1%7))+7
+number3 = num1
 
-
-while number<num2:
-    print(f'{number}')
-    number+=7
-else:
-    print(f'{number}')
+while number3<= num2:
+    print(f'{number3}')
+    number3 += 7
