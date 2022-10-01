@@ -13,4 +13,3 @@ if a ==2:
         start-=1
         print(f"{start}")
 if a == 3:
-    if start <
